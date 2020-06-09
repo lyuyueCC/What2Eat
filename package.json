@@ -1,0 +1,23 @@
+{
+  "name": "what2eat",
+  "version": "1.0.0",
+  "description": "This is the final project for course IMT549A.",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/browser-sync  start --server --files='**/*'",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lyuyueCC/What2Eat.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lyuyueCC/What2Eat/issues"
+  },
+  "homepage": "https://github.com/lyuyueCC/What2Eat#readme",
+  "dependencies": {
+    "browser-sync": "^2.26.7"
+  }
+}
