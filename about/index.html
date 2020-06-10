@@ -17,6 +17,23 @@
       .nopadding{
         padding: 0px;
       }
+      .barContainer {
+        width: 100%;
+        background-color: white;
+        border-radius: 25px;
+      }
+
+      .skills {
+        text-align: right;
+        padding-right: 1em;
+        color: white;
+        border-radius: 25px;
+      }
+
+      .html {width: 90%; background-color: #4CAF50;}
+      .css {width: 60%; background-color: #808080;}
+      .js {width: 80%; background-color: #2196F3;}
+      .php {width: 75%; background-color: #f44336;}
       @media(max-width: 576px){
       .navStyle{
         padding: 2%;
@@ -51,11 +68,92 @@
             </ul>
           </div>
         </nav>
-        <button onclick="location.href='/../#'" type="button">
-            back</button>
+
+        
     </header>
-    <main class="container">
-      <h3>About</h3>   
+    <main class="navStyle nopadding" >
+      <div class="row justify-content-center" style="margin-top: -3%;margin-left:0px; margin-right:0px;padding: 3%; background-color: #E6E6FA">
+          <img src= "../about.png"; style="object-fit: cover; width: 8em; height: 8em;border-radius: 50%; border:4px solid white;"></img>
+      </div>
+      <div class="row justify-content-center" style="margin:0px;  background-color: #E6E6FA">
+        <h5 style="color:#707070;">New grad from MSIM program</h5>
+      </div>
+      <div class="row justify-content-center" style="margin:0px;  background-color: #E6E6FA">
+        <h5 style="color:#707070;">Incoming backend software engineer</h5>
+      </div>
+      <div class="row justify-content-center" style="margin:0px;padding: 3%; background-color: #E6E6FA">
+        <button type="button" class="btn btn-secondary" href="www.google.com">
+          Find me on LinkedIn
+        </button>
+      </div>
+
+      <div class="row justify-content-center" style="margin:0px; padding: 3%; ">
+        <div class="col-6 col-md-3 d-flex align-items-center justify-content-center" style="padding:3%;">
+          <img src= "../about.png"; style="width:100%;"></img>
+        </div>
+        <div class="col-10 col-md-7">
+          <br>
+          <p><b>Hello, I'm Cate!</b></p>
+          <p style="text-align: justify">I'm a newly graduated master from MSIM program with specialization in User Experience and Data Science. Personally speaking, I am very interested in Software Engineering and Web Application Development. I am also an incoming software engineer in Sonos. I really love to use my skillsets and experiences to help people around and make impactful products along with my team. </p>
+          <div class="row">
+            <div class="col-4 col-sm-3"><b>Name: </b></div>
+            <div class="col-8 col-sm-9">Cate</div>
+          </div>
+          <div class="row">
+            <div class="col-4 col-sm-3"><b>Location:</b></div>
+            <div class="col-8 col-sm-9">Seattle, WA</div>
+          </div>
+          <div class="row">
+            <div class="col-4 col-sm-3"><b>Phone: </b></div>
+            <div class="col-8 col-sm-9">2066368015</div>
+          </div>
+          <div class="row">
+            <div class="col-4 col-sm-3"><b>Email: </b></div>
+            <div class="col-8 col-sm-9">lyuyue@uw.edu</div>
+          </div>
+          <div class="row">
+            <div class="col-sm-3"><b>Education:</b></div>
+            <div class="col-sm-9">University of Washington</div>
+          </div>
+          <div class="row">
+            <div class="col-sm-3"><b>Website: </b></div>
+            <div class="col-sm-9">linkedin.com/in/yue-lyu-cate</div>
+          </div>
+        </div>
+      </div>  
+      <div class="row justify-content-center" style="margin: 0px; padding: 5%; background-color: 	#DCDCDC">
+        <div class="col-md-1"></div>
+        <div class="col-10 col-md-5">
+          <br>
+          <h4>My skills in web development</h4>
+          <p style="text-align: justify">Through this course, I have gained lots of fundemental skills and knowledges. Since I don't have lots of frontend development experiences previously. The class has helped me a lot. Specifically, I had a very great time with learning how to use html and css to build a website without using extra framework or libraries. </p>
+        </div>
+        <div class="col-10 col-md-6">
+          <div style="width: 70%;">
+            <br>
+            
+          <span>HTML</span>
+          <div class="barContainer">
+            <div class="skills html">90%</div>
+          </div>
+
+          <span>JavaScript</span>
+          <div class="barContainer">
+            <div class="skills js">80%</div>
+          </div>
+
+          <span>Bootstrap</span>
+          <div class="barContainer">
+            <div class="skills php">75%</div>
+          </div>
+
+          <span>CSS</span>
+          <div class="barContainer">
+            <div class="skills css">60%</div>
+          </div>
+        </div>
+        </div>
+      </div>
     </main>
 
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
